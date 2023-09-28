@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+   <loader javaClass="games.strategy.triplea.TripleA" />
+   <triplea minimumVersion="1.6.1" />
+   -
+   <map>
+      <territory name="AL" />
+      <territory name="AZ" />
+      <territory name="AR" />
+      <territory name="CA" />
+      <territory name="CO" />
+      <territory name="CT" />
+      <territory name="DE" />
+      <territory name="FL" />
+      <territory name="GA" />
+      <territory name="ID" />
+      <territory name="IL" />
+      <territory name="IN" />
+      <territory name="IA" />
+      <territory name="KS" />
+      <territory name="KY" />
+      <territory name="LA" />
+      <territory name="ME" />
+      <territory name="MD" />
+      <territory name="MA" />
+      <territory name="MI" />
+      <territory name="MN" />
+      <territory name="MS" />
+      <territory name="MO" />
+      <territory name="MT" />
+      <territory name="NE" />
+      <territory name="NV" />
+      <territory name="NH" />
+      <territory name="NJ" />
+      <territory name="NM" />
+      <territory name="NY" />
+      <territory name="NC" />
+      <territory name="ND" />
+      <territory name="OH" />
+      <territory name="OK" />
+      <territory name="OR" />
+      <territory name="PA" />
+      <territory name="RI" />
+      <territory name="SC" />
+      <territory name="SD" />
+      <territory name="TN" />
+      <territory name="TX" />
+      <territory name="UT" />
+      <territory name="VT" />
+      <territory name="VA" />
+      <territory name="WA" />
+      <territory name="WV" />
+      <territory name="WI" />
+      <territory name="WY" />
+<connection t1="AL" t2="FL"/>
+<connection t1="AL" t2="GA"/>
+<connection t1="AL" t2="MS"/>
+<connection t1="AL" t2="TN"/>
+<connection t1="AR" t2="LA"/>
+<connection t1="AR" t2="MO"/>
+<connection t1="AR" t2="MS"/>
+<connection t1="AR" t2="OK"/>
+<connection t1="AR" t2="TN"/>
+<connection t1="AR" t2="TX"/>
+<connection t1="AZ" t2="CA"/>
+<connection t1="AZ" t2="NM"/>
+<connection t1="AZ" t2="NV"/>
+<connection t1="AZ" t2="UT"/>
+<connection t1="CA" t2="NV"/>
+<connection t1="CA" t2="OR"/>
+<connection t1="CO" t2="KS"/>
+<connection t1="CO" t2="NE"/>
+<connection t1="CO" t2="NM"/>
+<connection t1="CO" t2="OK"/>
+<connection t1="CO" t2="UT"/>
+<connection t1="CO" t2="WY"/>
+<connection t1="CT" t2="MA"/>
+<connection t1="CT" t2="NY"/>
+<connection t1="FL" t2="GA"/>
+<connection t1="GA" t2="NC"/>
+<connection t1="GA" t2="SC"/>
+<connection t1="GA" t2="TN"/>
+<connection t1="IA" t2="IL"/>
+<connection t1="IA" t2="MN"/>
+<connection t1="IA" t2="MO"/>
+<connection t1="IA" t2="NE"/>
+<connection t1="IA" t2="SD"/>
+<connection t1="IA" t2="WI"/>
+<connection t1="ID" t2="MT"/>
+<connection t1="ID" t2="NV"/>
+<connection t1="ID" t2="OR"/>
+<connection t1="ID" t2="UT"/>
+<connection t1="ID" t2="WA"/>
+<connection t1="ID" t2="WY"/>
+<connection t1="IL" t2="IN"/>
+<connection t1="IL" t2="KY"/>
+<connection t1="IL" t2="MO"/>
+<connection t1="IL" t2="WI"/>
+<connection t1="IN" t2="KY"/>
+<connection t1="IN" t2="MI"/>
+<connection t1="IN" t2="OH"/>
+<connection t1="KS" t2="MO"/>
+<connection t1="KS" t2="NE"/>
+<connection t1="KS" t2="OK"/>
+<connection t1="KY" t2="MO"/>
+<connection t1="KY" t2="OH"/>
+<connection t1="KY" t2="TN"/>
+<connection t1="KY" t2="VA"/>
+<connection t1="KY" t2="WV"/>
+<connection t1="LA" t2="MS"/>
+<connection t1="LA" t2="TX"/>
+<connection t1="MA" t2="NH"/>
+<connection t1="MA" t2="NY"/>
+<connection t1="MA" t2="VT"/>
+<connection t1="MD" t2="PA"/>
+<connection t1="MD" t2="VA"/>
+<connection t1="MD" t2="WV"/>
+<connection t1="ME" t2="NH"/>
+<connection t1="MI" t2="OH"/>
+<connection t1="MN" t2="ND"/>
+<connection t1="MN" t2="SD"/>
+<connection t1="MN" t2="WI"/>
+<connection t1="MO" t2="OK"/>
+<connection t1="MO" t2="TN"/>
+<connection t1="MS" t2="TN"/>
+<connection t1="MT" t2="ND"/>
+<connection t1="MT" t2="SD"/>
+<connection t1="MT" t2="WY"/>
+<connection t1="NC" t2="SC"/>
+<connection t1="NC" t2="TN"/>
+<connection t1="NC" t2="VA"/>
+<connection t1="ND" t2="SD"/>
+<connection t1="NE" t2="SD"/>
+<connection t1="NE" t2="WY"/>
+<connection t1="NH" t2="VT"/>
+<connection t1="NJ" t2="NY"/>
+<connection t1="NJ" t2="PA"/>
+<connection t1="NM" t2="OK"/>
+<connection t1="NM" t2="TX"/>
+<connection t1="NV" t2="OR"/>
+<connection t1="NV" t2="UT"/>
+<connection t1="NY" t2="PA"/>
+<connection t1="NY" t2="VT"/>
+<connection t1="OH" t2="PA"/>
+<connection t1="OH" t2="WV"/>
+<connection t1="OK" t2="TX"/>
+<connection t1="OR" t2="WA"/>
+<connection t1="PA" t2="WV"/>
+<connection t1="SD" t2="WY"/>
+<connection t1="TN" t2="VA"/>
+<connection t1="UT" t2="WY"/>
+<connection t1="VA" t2="WV"/>
+   </map>
+   -
+   <resourceList>
+      <resource name="PUs" />
+   </resourceList>
+   -
+   <playerList>
+      <!-- In turn order -->
+      <player name="Republicans" optional="false" />
+      <player name="Democrats" optional="false" />
+   </playerList>
+   -
+   <unitList>
+      <unit name="infantry" />
+      <unit name="m1Abrams" />
+      <unit name="f35" />
+      <unit name="machineGunPrius" />
+      <unit name="baseCamp" />
+      <unit name="armouredF350" />
+      <unit name="c17" />
+      <unit name="paramilitary" />
+      <unit name="sniper" />
+      <unit name="fortifications" />
+   </unitList>
+   -
+   <gamePlay>
+      <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates" />
+      <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat" />
+      <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move" />
+      <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units" />
+      <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units" />
+      <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete" />
+      <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete" />
+      -
+      <sequence>
+         <step name="gameInitDelegate" maxRunCount="1" delegate="initDelegate" />
+         <step name="republicanPurchase" player="Republicans" delegate="purchase" />
+         <step name="republicanCombatMove" player="Republicans" delegate="move" />
+         <step name="republicanBattle" player="Republicans" delegate="battle" />
+         <step name="republicanNonCombatMove" player="Republicans" display="Non Combat Move" delegate="move" />
+         <step name="republicanPlace" player="Republicans" delegate="place" />
+         <step name="republicanEndTurn" player="Republicans" delegate="endTurn" />
+         <step name="democratPurchase" player="Democrats" delegate="purchase" />
+         <step name="democratCombatMove" player="Democrats" delegate="move" />
+         <step name="democratBattle" player="Democrats" delegate="battle" />
+         <step name="democratNonCombatMove" player="Democrats" display="Non Combat Move" delegate="move" />
+         <step name="democratPlace" player="Democrats" delegate="place" />
+         <step name="democratEndTurn" player="Democrats" delegate="endTurn" />
+         <step name="endRoundStep" delegate="endRound" />
+      </sequence>
+   </gamePlay>
+   -
+   <production>
+      -
+      <productionRule name="buyInfantry">
+         <cost quantity="4" resource="PUs" />
+         <result quantity="1" resourceOrUnit="infantry" />
+      </productionRule>
+      -
+      <productionRule name="buyM1Abrams">
+         <cost quantity="15" resource="PUs" />
+         <result quantity="1" resourceOrUnit="m1Abrams" />
+      </productionRule>
+      -
+      <productionRule name="buyF35">
+         <cost quantity="30" resource="PUs" />
+         <result quantity="1" resourceOrUnit="f35" />
+      </productionRule>
+      -
+      <productionRule name="buySniper">
+         <cost quantity="10" resource="PUs" />
+         <result quantity="1" resourceOrUnit="sniper" />
+      </productionRule>
+      -
+      <productionRule name="buyFortifications">
+         <cost quantity="4" resource="PUs" />
+         <result quantity="1" resourceOrUnit="fortifications" />
+      </productionRule>
+      -
+      <productionRule name="buyMachineGunPrius">
+         <cost quantity="7" resource="PUs" />
+         <result quantity="1" resourceOrUnit="machineGunPrius" />
+      </productionRule>
+      -
+      <productionRule name="buyArmouredF350">
+         <cost quantity="7" resource="PUs" />
+         <result quantity="1" resourceOrUnit="armouredF350" />
+      </productionRule>
+      -
+      <productionRule name="buyC17">
+         <cost quantity="20" resource="PUs" />
+         <result quantity="1" resourceOrUnit="c17" />
+      </productionRule>
+      -
+      <productionRule name="buyBaseCamp">
+         <cost quantity="45" resource="PUs" />
+         <result quantity="1" resourceOrUnit="baseCamp" />
+      </productionRule>
+      -
+      <productionRule name="buyParamilitary">
+         <cost quantity="6" resource="PUs" />
+         <result quantity="1" resourceOrUnit="paramilitary" />
+      </productionRule>
+      -
+      <productionFrontier name="production">
+         <frontierRules name="buyInfantry" />
+         <frontierRules name="buyM1Abrams" />
+         <frontierRules name="buyF35" />
+         <frontierRules name="buyMachineGunPrius" />
+         <frontierRules name="buyBaseCamp" />
+         <frontierRules name="buyArmouredF350" />
+         <frontierRules name="buySniper" />
+         <frontierRules name="buyFortifications" />
+         <frontierRules name="buyC17" />
+         <frontierRules name="buyParamilitary" />
+         <playerProduction player="Democrats" frontier="production" />
+         <playerProduction player="Republicans" frontier="production" />
+      </productionFrontier>
+   </production>
+   -
+   <attachmentList>
+      -
+      <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="infantry">
+         <option name="movement" value="1" />
+         <option name="attack" value="1" />
+         <option name="defense" value="2" />
+      </attachment>
+      -
+      <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="paramilitary">
+         <option name="movement" value="1" />
+         <option name="transportCost" value="1" />
+         <option name="attack" value="1" />
+         <option name="defense" value="2" />
+      </attachment>
+      -
+      <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="m1Abrams">
+         <option name="movement" value="2" />
+         <option name="canBlitz" value="true" />
+         <option name="attack" value="4" />
+         <option name="defense" value="3" />
+      </attachment>
+      -
+      <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="f35">
+         <option name="movement" value="6" />
+         <option name="isSub" value="true" />
+         <option name="isAir" value="true" />
+         <option name="attack" value="6" />
+         <option name="defense" value="3" />
+      </attachment>
+      -
+      <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="sniper">
+         <option name="movement" value="1" />
+         <option name="attack" value="1" />
+         <option name="defense" value="4" />
+      </attachment>
+      -
+      <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="c17">
+         <option name="movement" value="4" />
+         <option name="isAir" value="true" />
+         <option name="transportCapacity" value="2" />
+         <option name="attack" value="2" />
+         <option name="defense" value="2" />
+      </attachment>
+      -
+      <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="machineGunPrius">
+         <option name="movement" value="2" />
+         <option name="canBlitz" value="true" />
+         <option name="attack" value="2" />
+         <option name="defense" value="3" />
+      </attachment>
+      -
+      <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="fortifications">
+         <option name="movement" value="0" />
+         <option name="attack" value="0" />
+         <option name="defense" value="1" />
+         <option name="hitPoints" value="1" />
+      </attachment>
+      -
+      <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="armouredF350">
+         <option name="movement" value="2" />
+         <option name="canBlitz" value="true" />
+         <option name="attack" value="2" />
+         <option name="defense" value="3" />
+      </attachment>
+      -
+      <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="baseCamp">
+         <option name="isFactory" value="true" />
+         <option name="destroyedWhenCapturedFrom" value="Republicans:Democrats" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="AL">
+         <option name="production" value="3" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="AZ">
+         <option name="production" value="5" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="AR">
+         <option name="production" value="2" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="CA">
+         <option name="production" value="27" />
+         <option name="originalFactory" value="true" />
+         <option name="capital" value="Democrats" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="CO">
+         <option name="production" value="4" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="CT">
+         <option name="production" value="4" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="FL">
+         <option name="production" value="14" />
+         <option name="originalFactory" value="true" />
+         <option name="capital" value="Republicans" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="GA">
+         <option name="production" value="8" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="ID">
+         <option name="production" value="2" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="IL">
+         <option name="production" value="10" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="IN">
+         <option name="production" value="5" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="IA">
+         <option name="production" value="3" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="KS">
+         <option name="production" value="3" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="KY">
+         <option name="production" value="4" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="LA">
+         <option name="production" value="4" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="ME">
+         <option name="production" value="2" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="MD">
+         <option name="production" value="5" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="MA">
+         <option name="production" value="5" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="MI">
+         <option name="production" value="8" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="MN">
+         <option name="production" value="5" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="MS">
+         <option name="production" value="3" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="MO">
+         <option name="production" value="5" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="MT">
+         <option name="production" value="2" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="NE">
+         <option name="production" value="2" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="NV">
+         <option name="production" value="3" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="NJ">
+         <option name="production" value="7" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="MN">
+         <option name="production" value="5" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="NY">
+         <option name="production" value="14" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="NC">
+         <option name="production" value="7" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="ND">
+         <option name="production" value="1" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="OH">
+         <option name="production" value="9" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="OK">
+         <option name="production" value="3" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="OR">
+         <option name="production" value="3" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="PA">
+         <option name="production" value="10" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="SC">
+         <option name="production" value="4" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="SD">
+         <option name="production" value="1" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="TN">
+         <option name="production" value="5" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="TX">
+         <option name="production" value="20" />
+         <option name="originalFactory" value="true" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="UT">
+         <option name="production" value="3" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="VT">
+         <option name="production" value="1" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="VA">
+         <option name="production" value="6" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="WA">
+         <option name="production" value="6" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="WV">
+         <option name="production" value="2" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="WI">
+         <option name="production" value="5" />
+      </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="WY">
+         <option name="production" value="1" />
+      </attachment>
+   </attachmentList>
+   -
+   <initialize>
+      -
+      <ownerInitialize>
+         <territoryOwner owner="Republicans" territory="AL" />
+         <territoryOwner owner="Democrats" territory="AZ" />
+         <territoryOwner owner="Republicans" territory="AR" />
+         <territoryOwner owner="Democrats" territory="CA" />
+         <territoryOwner owner="Democrats" territory="CO" />
+         <territoryOwner owner="Democrats" territory="CT" />
+         <territoryOwner owner="Democrats" territory="DE" />
+         <territoryOwner owner="Republicans" territory="FL" />
+         <territoryOwner owner="Republicans" territory="GA" />
+         <territoryOwner owner="Republicans" territory="ID" />
+         <territoryOwner owner="Democrats" territory="IL" />
+         <territoryOwner owner="Democrats" territory="IN" />
+         <territoryOwner owner="Democrats" territory="IA" />
+         <territoryOwner owner="Republicans" territory="KS" />
+         <territoryOwner owner="Republicans" territory="KY" />
+         <territoryOwner owner="Republicans" territory="LA" />
+         <territoryOwner owner="Democrats" territory="ME" />
+         <territoryOwner owner="Democrats" territory="MD" />
+         <territoryOwner owner="Democrats" territory="MA" />
+         <territoryOwner owner="Democrats" territory="MI" />
+         <territoryOwner owner="Democrats" territory="MN" />
+         <territoryOwner owner="Republicans" territory="MS" />
+         <territoryOwner owner="Republicans" territory="MO" />
+         <territoryOwner owner="Republicans" territory="MT" />
+         <territoryOwner owner="Republicans" territory="NE" />
+         <territoryOwner owner="Democrats" territory="NV" />
+         <territoryOwner owner="Democrats" territory="NH" />
+         <territoryOwner owner="Democrats" territory="NJ" />
+         <territoryOwner owner="Democrats" territory="NM" />
+         <territoryOwner owner="Democrats" territory="NY" />
+         <territoryOwner owner="Democrats" territory="NC" />
+         <territoryOwner owner="Republicans" territory="ND" />
+         <territoryOwner owner="Republicans" territory="OH" />
+         <territoryOwner owner="Republicans" territory="OK" />
+         <territoryOwner owner="Democrats" territory="OR" />
+         <territoryOwner owner="Democrats" territory="PA" />
+         <territoryOwner owner="Democrats" territory="RI" />
+         <territoryOwner owner="Republicans" territory="SC" />
+         <territoryOwner owner="Republicans" territory="SD" />
+         <territoryOwner owner="Republicans" territory="TN" />
+         <territoryOwner owner="Republicans" territory="TX" />
+         <territoryOwner owner="Republicans" territory="UT" />
+         <territoryOwner owner="Democrats" territory="VT" />
+         <territoryOwner owner="Democrats" territory="VA" />
+         <territoryOwner owner="Democrats" territory="WA" />
+         <territoryOwner owner="Republicans" territory="WV" />
+         <territoryOwner owner="Democrats" territory="WI" />
+         <territoryOwner owner="Republicans" territory="WY" />
+      </ownerInitialize>
+      -
+      <unitInitialize>
+         <unitPlacement quantity="1" owner="Republicans" territory="TX" unitType="baseCamp" />
+         <unitPlacement quantity="1" owner="Republicans" territory="FL" unitType="baseCamp" />
+         <unitPlacement quantity="1" owner="Republicans" territory="OH" unitType="baseCamp" />
+         <unitPlacement quantity="1" owner="Republicans" territory="NC" unitType="baseCamp" />
+         <unitPlacement quantity="1" owner="Democrats" territory="CA" unitType="baseCamp" />
+         <unitPlacement quantity="1" owner="Democrats" territory="NY" unitType="baseCamp" />
+         <unitPlacement quantity="1" owner="Democrats" territory="PA" unitType="baseCamp" />
+         <unitPlacement quantity="1" owner="Democrats" territory="IL" unitType="baseCamp" />
+         <unitPlacement quantity="1" owner="Republicans" territory="AL" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="AR" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="ID" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="IN" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="IA" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="KS" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="KY" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="LA" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="MS" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="MO" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="MT" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="NE" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="ND" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="OH" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="OK" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="SC" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="SD" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="TN" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="TX" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="UT" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Republicans" territory="WY" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="CA" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="CO" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="CT" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="IL" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="ME" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="MD" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="MA" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="MI" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="MN" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="NH" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="NJ" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="NM" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="NY" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="OR" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="RI" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="VT" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="VA" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="WA" unitType="infantry" />
+         <unitPlacement quantity="1" owner="Democrats" territory="WI" unitType="infantry" />
+      </unitInitialize>
+      -
+      <resourceInitialize>
+         <resourceGiven player="Democrats" quantity="150" resource="PUs" />
+         <resourceGiven player="Republicans" quantity="115" resource="PUs" />
+      </resourceInitialize>
+   </initialize>
+   -
+   <propertyList>
+      -
+      <property name="Low Luck" value="false" editable="true">
+         <boolean />
+      </property>
+      -
+      <property name="Use Triggers" value="true" editable="false">
+         <boolean />
+      </property>
+      -
+      <property name="Movement By Territory Restricted" value="false" editable="true">
+         <boolean />
+      </property>
+      -
+      <property name="Units Can Be Destroyed Instead Of Captured" value="false" editable="true">
+         <boolean />
+      </property>
+      -
+      <property name="Territory Turn Limit" value="false" editable="true">
+         <boolean />
+      </property>
+      -
+      <property name="Units Repair Hits End Turn" value="false" editable="true">
+         <boolean />
+      </property>
+      -
+      <property name="Units Repair Hits Start Turn" value="true" editable="true">
+         <boolean />
+      </property>
+      -
+      <property name="Attacker Retreat Planes" value="true" editable="true">
+         <boolean />
+      </property>
+      -
+      <property name="Unplaced units live when not placed" value="false" editable="false">
+         <boolean />
+      </property>
+      -
+      <property name="Neutrals Are Impassable" value="true" editable="true">
+         <boolean />
+      </property>
+      -
+      <property name="maxFactoriesPerTerritory" value="1" editable="false">
+         <number max="100" min="1" />
+      </property>
+      -
+      <property name="mapName" value="civil_war_2028" editable="false" />
+   </propertyList>
+</game>
