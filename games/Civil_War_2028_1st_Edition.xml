@@ -12,7 +12,6 @@
       <territory name="CA" />
       <territory name="CO" />
       <territory name="CT" />
-      <territory name="DE" />
       <territory name="FL" />
       <territory name="GA" />
       <territory name="ID" />
@@ -42,7 +41,6 @@
       <territory name="OK" />
       <territory name="OR" />
       <territory name="PA" />
-      <territory name="RI" />
       <territory name="SC" />
       <territory name="SD" />
       <territory name="TN" />
@@ -187,19 +185,19 @@
       <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete" />
       -
       <sequence>
-         <step name="gameInitDelegate" maxRunCount="1" delegate="initDelegate" />
-         <step name="republicanPurchase" player="Republicans" delegate="purchase" />
-         <step name="republicanCombatMove" player="Republicans" delegate="move" />
-         <step name="republicanBattle" player="Republicans" delegate="battle" />
-         <step name="republicanNonCombatMove" player="Republicans" display="Non Combat Move" delegate="move" />
-         <step name="republicanPlace" player="Republicans" delegate="place" />
-         <step name="republicanEndTurn" player="Republicans" delegate="endTurn" />
-         <step name="democratPurchase" player="Democrats" delegate="purchase" />
-         <step name="democratCombatMove" player="Democrats" delegate="move" />
-         <step name="democratBattle" player="Democrats" delegate="battle" />
-         <step name="democratNonCombatMove" player="Democrats" display="Non Combat Move" delegate="move" />
-         <step name="democratPlace" player="Democrats" delegate="place" />
-         <step name="democratEndTurn" player="Democrats" delegate="endTurn" />
+         <step name="gameInitDelegate" maxRunCount="1" delegate="initDelegate" />       
+<step name="republicansPurchase" player="Republicans" delegate="purchase" />
+         <step name="republicansCombatMove" player="Republicans" delegate="move" />
+         <step name="republicansBattle" player="Republicans" delegate="battle" />
+         <step name="republicansNonCombatMove" player="Republicans" display="Non Combat Move" delegate="move" />
+         <step name="republicansPlace" player="Republicans" delegate="place" />
+         <step name="republicansEndTurn" player="Republicans" delegate="endTurn" />
+         <step name="democratsPurchase" player="Democrats" delegate="purchase" />
+         <step name="democratsCombatMove" player="Democrats" delegate="move" />
+         <step name="democratsBattle" player="Democrats" delegate="battle" />
+         <step name="democratsNonCombatMove" player="Democrats" display="Non Combat Move" delegate="move" />
+         <step name="democratsPlace" player="Democrats" delegate="place" />
+         <step name="democratsEndTurn" player="Democrats" delegate="endTurn" />
          <step name="endRoundStep" delegate="endRound" />
       </sequence>
    </gamePlay>
@@ -267,13 +265,24 @@
          <frontierRules name="buyFortifications" />
          <frontierRules name="buyC17" />
          <frontierRules name="buyParamilitary" />
+</productionFrontier>
+
          <playerProduction player="Democrats" frontier="production" />
          <playerProduction player="Republicans" frontier="production" />
-      </productionFrontier>
+      
    </production>
    -
    <attachmentList>
-      -
+      
+-<attachment name="techAttachment" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player" attachTo="Republicans">
+
+<option name="paratroopers" value="true"/> 
+</attachment>
+
+-<attachment name="techAttachment" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player" attachTo="Democrats">
+
+<option name="paratroopers" value="true"/>
+</attachment>
       <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="infantry">
          <option name="movement" value="1" />
          <option name="attack" value="1" />
@@ -285,6 +294,7 @@
          <option name="transportCost" value="1" />
          <option name="attack" value="1" />
          <option name="defense" value="2" />
+<option name="isAirTransportable" value="true"/>
       </attachment>
       -
       <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="m1Abrams">
@@ -311,6 +321,7 @@
       <attachment name="unitAttachment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType" attachTo="c17">
          <option name="movement" value="4" />
          <option name="isAir" value="true" />
+<option name="isAirTransport" value="true"/>
          <option name="transportCapacity" value="2" />
          <option name="attack" value="2" />
          <option name="defense" value="2" />
@@ -526,6 +537,15 @@
       <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="WY">
          <option name="production" value="1" />
       </attachment>
+      -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="NM">
+         <option name="production" value="2" />
+      </attachment>
+	 -
+      <attachment name="territoryAttachment" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory" attachTo="NH">
+         <option name="production" value="2" />
+      </attachment>
+
    </attachmentList>
    -
    <initialize>
@@ -537,7 +557,6 @@
          <territoryOwner owner="Democrats" territory="CA" />
          <territoryOwner owner="Democrats" territory="CO" />
          <territoryOwner owner="Democrats" territory="CT" />
-         <territoryOwner owner="Democrats" territory="DE" />
          <territoryOwner owner="Republicans" territory="FL" />
          <territoryOwner owner="Republicans" territory="GA" />
          <territoryOwner owner="Republicans" territory="ID" />
@@ -567,7 +586,6 @@
          <territoryOwner owner="Republicans" territory="OK" />
          <territoryOwner owner="Democrats" territory="OR" />
          <territoryOwner owner="Democrats" territory="PA" />
-         <territoryOwner owner="Democrats" territory="RI" />
          <territoryOwner owner="Republicans" territory="SC" />
          <territoryOwner owner="Republicans" territory="SD" />
          <territoryOwner owner="Republicans" territory="TN" />
@@ -625,7 +643,6 @@
          <unitPlacement quantity="1" owner="Democrats" territory="NM" unitType="infantry" />
          <unitPlacement quantity="1" owner="Democrats" territory="NY" unitType="infantry" />
          <unitPlacement quantity="1" owner="Democrats" territory="OR" unitType="infantry" />
-         <unitPlacement quantity="1" owner="Democrats" territory="RI" unitType="infantry" />
          <unitPlacement quantity="1" owner="Democrats" territory="VT" unitType="infantry" />
          <unitPlacement quantity="1" owner="Democrats" territory="VA" unitType="infantry" />
          <unitPlacement quantity="1" owner="Democrats" territory="WA" unitType="infantry" />
@@ -640,7 +657,13 @@
    -
    <propertyList>
       -
-      <property name="Low Luck" value="false" editable="true">
+
+-<property name="Paratroopers Can Move During Non Combat" value="true" editable="false">
+
+<boolean/>     
+</property>
+
+ <property name="Low Luck" value="false" editable="true">
          <boolean />
       </property>
       -

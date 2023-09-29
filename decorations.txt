@@ -1,2 +1,2 @@
-Democrat-large.png  (215,582) 
-Republican-large.png  (1400,872) 
+Democrats_large.png  (215,582) 
+Republicans_large.png  (1400,872) 
